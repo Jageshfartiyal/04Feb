@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    
+  }
+  .bro{
+      border: 0.8px solid grey;
+      margin-left: 30px;
+      margin-right: 24px;
+      
+     
+  }
+  .begin{
+      font-size: 35px;
+      font-family: 'Times New Roman', Times, serif;
+      padding-left: 29px;
+      padding-top: 15px;
+      height: 50px;
+  }
+  
+  button{
+    margin-left:29px ;
+    margin-top: 15px;
+    height: 35px;
+    width: 120px;
+    
+  }
+  .demo{
+    padding-left: 29px;
+    width: 800px;
+    font-size:14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  .author{
+      color:grey;
+      font-size: 15px;
+      padding-top: px;
+  }
+  a{
+      color:black;
+      text-decoration: none;
+  }
+  
+  .comma{
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    margin-top: 30px;
+    
+    padding:2px;
+  }
+  
+  .heading_style{
+    text-align: center;
+  } 
+  .deleted{
+    padding-left: 12px;
+      
+  }
+  .price{
+    padding-top: 25px;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .seller{
+    background-color:yellowgreen;
+    width: fit-content;
+    margin-top: 11px;
+  }
+  .des{
+    font-size: 17px;
+    padding-top: 10px;
+    height: 50px;
+    width: 200px;
+
+  }
+  .image{
+    height: auto;
+    max-width: 100%;
+    size: cover;
+    border-bottom: 0.8px solid black;
+    border-left: 0.5px green;
+  }
+  
+  .para{
+    padding:2px;
+  }
+  .comma:hover{
+    transform: scale(1.03);
+    transition: all 3s erase;
+  }
